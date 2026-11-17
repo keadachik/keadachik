@@ -13,7 +13,7 @@ What I work on now:
 
 | Repository | What it shows |
 |---|---|
-| [dynatrace-ai-observability-notes](https://github.com/keadachik/dynatrace-ai-observability-notes) | Testing Dynatrace's AI agents (SRE Agent, Kubernetes Troubleshooting) against known faults; making AI-written reports numerically correct; reproducing seven failure modes of a multi-agent Bedrock app and comparing what Dynatrace and Phoenix can see |
+| [dynatrace-ai-observability-notes](https://github.com/keadachik/dynatrace-ai-observability-notes) | Testing Dynatrace's AI agents (SRE Agent, Kubernetes Troubleshooting) against known faults; adapting workflow templates so that DQL does the math and the LLM only writes; reproducing seven failure modes of a multi-agent Bedrock app and comparing what Dynatrace and Phoenix can see |
 | [swift-fraud-pipeline-observability](https://github.com/keadachik/swift-fraud-pipeline-observability) | Tracing an agentic SWIFT fraud-screening pipeline with Phoenix, which revealed that the LLM's HOLD decision was never used downstream; golden tests and LLM-as-a-judge |
 
 Both are written in Japanese with an English summary.
