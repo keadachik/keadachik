@@ -15,8 +15,11 @@ What I work on now:
 |---|---|
 | [dynatrace-ai-observability-notes](https://github.com/keadachik/dynatrace-ai-observability-notes) | Testing Dynatrace's AI agents (SRE Agent, Kubernetes Troubleshooting) against known faults; adapting workflow templates so that DQL does the math and the LLM only writes; reproducing seven failure modes of a multi-agent Bedrock app and comparing what Dynatrace and Phoenix can see |
 | [swift-fraud-pipeline-observability](https://github.com/keadachik/swift-fraud-pipeline-observability) | Tracing an agentic SWIFT fraud-screening pipeline with Phoenix, which revealed that the LLM's HOLD decision was never used downstream; golden tests and LLM-as-a-judge |
+| [postfix-deferred-dynatrace-lab](https://github.com/keadachik/postfix-deferred-dynatrace-lab) | Reproducing a Microsoft 365 outage against a real postfix MTA, then turning mail logs into queue metrics and alerts with OneAgent log ingest and OpenPipeline |
+| [oneagent-log-module-cpu-quota-lab](https://github.com/keadachik/oneagent-log-module-cpu-quota-lab) | Testing a new OneAgent feature that caps log-collection CPU: measuring CPU, ingest lag and completeness (4.49M lines, none lost) to show how to choose a limit |
+| [jvm-agent-memory-lab](https://github.com/keadachik/jvm-agent-memory-lab) | Measuring what drives a JVM APM agent's memory overhead (load vs. code executed vs. JIT) on Kubernetes, with a no-agent control group |
 
-Both are written in Japanese with an English summary.
+All are written in Japanese; the first two include an English summary.
 
 ### Learning
 
